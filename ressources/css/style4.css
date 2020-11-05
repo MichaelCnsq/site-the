@@ -270,3 +270,80 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
 }
+
+
+/* PACKS
+============================== */
+
+.pack {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.pack h3 {
+    color: rgb(8, 119, 8);
+    font-weight: 400;
+}
+
+.pack h4 {
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.pack span {
+    font-weight: 100;
+    font-size: 40%;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+.pack-premium {
+    background-color: turquoise;
+    color: white;
+}
+
+.pack-title {
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.pack-title-premium {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pack-content ul {
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.pack-content ul li i {
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+.pack-signup {
+    text-align: center;
+}
+
+.pack-signup:hover .btn-pack {
+    background-color: rgb(16, 59, 16);
+    color: white;
+}
+
+.btn-pack {
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+}
