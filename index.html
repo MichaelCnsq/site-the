@@ -17,6 +17,23 @@
 
 <body>
     <header>
+        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/">Boutique de thé</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#monMenu" aria-controls="monMenu" aria-label="Menu pour mobile">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="monMenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="/">Qui sommes-nous</a>
+                        <a class="nav-item nav-link" href="#nosproduits">Nos produits</a>
+                        <a class="nav-item nav-link" href="#photos">Photos</a>
+                        <a class="nav-item nav-link" href="/">Nos packs</a>
+                        <a class="nav-item nav-link" href="/">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 home-title">
@@ -29,7 +46,7 @@
         </div>
     </header>
     <!-- NOS PRODUITS ============================== -->
-    <section>
+    <section id="nosproduits">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -121,7 +138,7 @@
         </div>
     </section>
     <!-- GALERIES PHOTOS ============================== -->
-    <section>
+    <section id="photos">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -281,6 +298,102 @@
             </div>
         </div>
     </section>
+    <!-- CONTACT ============================== -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form">
+                                <h2>Contactez-nous</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="phone">
+                                <p><i class="fas fa-phone"></i>02.51.34.65.33</p>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="adress">
+                                <p><i class="fas fa-map-marker-alt"></i>Place du commerce 44000 Nantes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form>
+
+                        <!-- Nom et Email -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Nom :</label>
+                                    <input type="text" id="name" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                    <label>Email :</label>
+                                    <input type="email" id="email" placeholder="Ajoutez votre email" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Services contact -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                    <label>Sélectionnez le service</label>
+                                    <select>
+                                        <option>Service client</option>
+                                        <option>Service comptable</option>
+                                        <option>SAV</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                    <label>Votre message :</label>
+                                    <textarea id="message" rows="3" class="contact-message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Bouton envoyer -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                    <button class="btn btn-contact">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5420.218943738719!2d-1.5537908402506242!3d47.21444026408668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805eea450b4b805%3A0x987dce502f249478!2sPalais%20des%20Th%C3%A9s!5e0!3m2!1sfr!2sfr!4v1604588254388!5m2!1sfr!2sfr"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER ============================== -->
+    <footer>
+        <div class="copyright">
+            <p>Site de thé - 2019. <a href="/">Mentions légales</a></p>
+        </div>
+    </footer>
+    <!-- SCRIPTS ============================== -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

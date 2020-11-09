@@ -1,7 +1,6 @@
-Alors comme ça tu regardes mon travail Morghan ?
-J'avance tranquillement ^^.
-Voici un petit ours polaire pour toi :'D.
-See you soon !
+# site-the
+
+Voici un petit ours polaire.
 
 
        _ 
